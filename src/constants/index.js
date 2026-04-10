@@ -365,6 +365,57 @@ const WORK_LOCATION = {
         },
       ],
     },
+    // ▶ Project 4
+    {
+      id: 8,
+      name: "Crime Trend Analysis for Los Angeles",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-10 left-80",
+      windowPosition: "top-[33vh] left-40",
+      children: [
+        {
+          id: 1,
+          name: "Crime Trend Analysis for Los Angeles Project.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [
+            "Tech Stack - Google Sheets, Github",
+            "Description - Engineered a high-quality analytical dataset by resolving 40% missing values, standardizing formats, and deriving key temporal features (Year, Month, Hour), enabling reliable and structured crime trend analysis.",
+            "Features - Led end-to-end data cleaning and transformation by decoding categorical codes, handling anomalies, and improving data consistency, resulting in a 100% clean, analysis-ready dataset with enhanced interpretability for insights generation.",
+          ],
+        },
+        {
+          id: 2,
+          name: "Hosted Link",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://github.com/ratinto/CapstoneDVA-E13",
+          position: "top-10 right-20",
+        },
+        {
+          id: 4,
+          name: "crime.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 right-80",
+          imageUrl: "/images/project-4.png",
+        },
+        {
+          id: 5,
+          name: "Design.fig",
+          icon: "/images/plain.png",
+          kind: "file",
+          fileType: "fig",
+          href: "https://github.com/ratinto/CapstoneDVA-E13/blob/main/Dashboard/Dashboard.pdf",
+          position: "top-60 right-20",
+        },
+      ],
+    },
   ],
 };
 
